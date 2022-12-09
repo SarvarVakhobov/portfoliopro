@@ -1,9 +1,10 @@
-import Profile from "./portfolioContainer/Home/Profile";
+import "./App.css"
+import Home from "./portfolioContainer/Home/Home";
 
 function App() {
   return (
     <div className="App">
-      <Profile/>
+      <Home />
     </div>
   );
 }
